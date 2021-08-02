@@ -1,0 +1,163 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(173, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: cornflowerblue;
+}
+.container .left
+{
+    position: relative;
+    background-color: black;
+    padding: 50px;
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 0px sienna;
+}
+.profileText .imgtag
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgtag img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+}
+.contactinfo{
+    color: antiquewhite;
+    width: max-content;
+    margin: 10px 0;
+    
+}
+.contactinfo ul
+{
+    padding: 1px;
+}
+.contactinfo ul li
+{
+    display: flow-root;
+    padding: 5px;
+}
+.contactinfo .educational h5
+{
+    color: aqua;
+}
+.educational
+{
+    color: antiquewhite;
+}
+.contactinfo .language .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(36, 34, 34);
+    display: block;
+}
+.contactinfo .language .percent div
+{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    background-color: aqua;
+}
+
+.container .right
+{
+    position: relative;
+    background-color: hsl(0, 10%, 88%);
+    padding: 50px;
+}
+.About
+{
+    margin-bottom: 50px;
+}
+.About:last-child
+{
+    margin-bottom: 0;
+}
+.title
+{
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-bottom: 10px;
+}
+.About .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.About .box .yearcompany
+{
+    min-width: 150px;
+}
+About .box .yearcompany h5
+{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+About .box .yearcompany h4
+{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.About .skill .percent
+{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(36, 34, 34);
+    display: block;
+    margin: 30px;
+}
+.About .skill .percent div
+{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    
+    background-color: whitesmoke;
+
+}
+.About .interest ul
+{
+    
+}
